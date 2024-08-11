@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .logo-container {
+    padding: 4% 4%;
+}
+
+.header .logo-container img{
+    width: 17%;
+    height: 14%;
+}
+
+.main .main-container {
+    display: flex;
+    padding: 35px 0 0 97px;
+    height: 67vh;
+}
+
+.main .main-container .mockup-image{
+    width: 130vw;
+    background: url(../images/illustration-mockups.svg) no-repeat;
+    background-size: contain;
+}
+
+.main .main-container .main-text {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 188px 0 68px;
+}
+
+.main .main-container .main-text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: calc(1.7vw + 1.7vh);
+    font-weight: 600;
+    color: white;
+}
+
+.main .main-container .main-text p {
+    font-size: calc(0.7vw + 1vh);
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+    margin: 28px 0 20px 0;
+}
+
+.main .main-text .register-button {
+    align-self: self-start;
+    text-align: center;
+    font-size: calc(1vw + 0.7vh);
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    padding: 23px 81px;
+    margin: 10px 0;
+    border-radius: 50px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.13);
+    border-width: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.main .main-text .register-button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.36);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 179px 0 0;
+    margin-bottom: 40px;
+}
+
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer .social a i {
+    color: white;
+    margin-left: 21px;
+    padding: 14px;
+    border: solid 1px white;
+    border-radius: 100%;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.footer .social a i:hover  {
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.footer .social .fab.fa-instagram {
+    padding: 12px 13px;
+    font-size: 2.6rem;
+}
+
+.footer .social .fab.fa-facebook-f {
+    padding: 14px 18px;
+}
