@@ -25,8 +25,8 @@ Versão Mobile 375x685
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL da solução no GitHUb: [Link GitHub](https://github.com/AgnerShimokawa/quest-huddle-landing-page)
+- URL do site live: [Link do site](https://agnershimokawa.github.io/quest-huddle-landing-page/)
 
 ## <h2 id="meu-processo">Meu Processo</h2>
 
