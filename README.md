@@ -1,34 +1,34 @@
-## Tabela de Conteúdo
+## Table of Content
 
-- [Visão Geral](#visao-geral)
-  - [O Desafio](#o-desafio)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Meu Processo](#meu-processo)
+- [My process](#my-process)
   - [Built with](#built-with)
-  - [O que aprendi](#o-que-aprendi)
+  - [What I learned](#what-i-learned)
 
 
-## <h2 id="visao-geral">Visão Geral</h2>
+## <h2 id="overview">Overview</h2>
 
-### <h3 id="o-desafio">O Desafio</h3>
+### <h3 id="the-challengeo">The Challenge</h3>
 
-O desafio foi criar uma página com header, body e footer utilizando o flex que fosse responsivo, tendo um layout diferente para desktop e mobile.
+The challenge was to create a responsive header, body and footer using flex, having a different layout for desktop view and mobile view.
 
 ### Screenshot
 
-Versão Desktop 1920x1080
+Desktop View 1920x1080
 ![](./src/design/Screenshot%202024-08-11%20234421.png)
-Versão Mobile 375x685
+Mobile View 375x685
 
 ![](./src/design/Screenshot%202024-08-12%20000219.png)
 
 ### Links
 
-- URL da solução no GitHUb: [Link GitHub](https://github.com/AgnerShimokawa/quest-huddle-landing-page)
-- URL do site live: [Link do site](https://agnershimokawa.github.io/quest-huddle-landing-page/)
+- URL for hte solution on GitHUb: [Link GitHub](https://github.com/AgnerShimokawa/quest-huddle-landing-page)
+- URL of the live site: [Link of site](https://agnershimokawa.github.io/quest-huddle-landing-page/)
 
-## <h2 id="meu-processo">Meu Processo</h2>
+## <h2 id="my-process">My Process</h2>
 
 ### Built with
 
@@ -36,11 +36,11 @@ Versão Mobile 375x685
 - CSS custom properties
 - Flexbox
 
-### <h3 id="o-que-aprendi">O que aprendi</h3>
+### <h3 id="what-i-learned">What I Learned</h3>
 
-Nesse projeto aprendi que para usar o PerfectPixel, é necessário usar a mesma resolução em que a imagem foi crriada para ter medidas mais exatas. Como minha resolução por padrão é de 1920x1080, não conseguia acertar as medidas na hora de criar, então tive que mudar a resolução para 1440x900. No entanto, como não pude terminar o projeto em um dia, e acabei voltando a resolução para o padrão, quando voltei a trabalhar no projeto, continuei tirando as medidas com a resolução errada, deixando tudo desequilibrado, quando percebi e mudei a resolução, o progresso que tinha feito estava todo descentralizado. Com isso resolvi fazer o projeto praticamente a olho e usando porcentagem para que os elementos se ajustassem com o tamanho da tela.
+With this project I've learned that to use the pluggin, PerfectPixel, you need to set the resolution of your screen to be that of the resolution of the screen that the image was created. My screen resolution by default is 1920X1080, so I couldn't make the proportions to work until I realized that the image was created with a resolution of 1440X900, then things started to fit better. However, by the end of the day, I reverted back to my default resolution, and forgot to change when I came back to the project, only to measure things with the wrong resolution again, making eveything look crooked and out of place. After that I decided to eyeball everything and making the adjustments in a "this seems close" kind of a way.
 
-Outra coisa foi, como deixar o tamanho das fontes relativas ao tamanho ou resolução da tela, usando:
+Another thing was to change the font size according to the size of the screen. using:
 
 ```css
 .main .main-container .main-text h2 {
@@ -48,7 +48,7 @@ Outra coisa foi, como deixar o tamanho das fontes relativas ao tamanho ou resolu
 }
 ```
 
-Com isso o tamanho da fonte é calculado de acordo com o viewport da tela. Isso foi muito útil uma vez que inicialmente, a imagem era responsiva, diminuindo o tamanho conforme a tela fosse diminuindo, e os texto não, isso criava um desequilibro na tela como um todo, e gerava side scrolls desnecessários.
-Porém o grau, ou velocidade com que a imagem e os textos diminuíam não era rápido o bastante para deixar a página responsiva em todos os tamanhos, com isso foi necessário criar algumas media queries a mais, fazendo ajustes para que a página pudesse ser visualemnte agradável com qualquer resolução.
+With this the font size is calculated with the viewport of the screen. It was very useful since initially the image was responsive, but the font size stayed the same, creating a unbalence as a whole, and also it created unnecessary scroll bars.
+However, the rate with which the image and the font size decreased wasn't fast enough, to go around that I had to create a few media queries to force change the size of the elements to make it look better in smaller screen sizes. 
 
-Foi um projeto um pouco complexo no sentido de responsividade com qualquer resolução, o momento em que algo ficava estranho ao ir diminuindo a tela chegava a ser frustante, porém lembrando tudo que já foi ensinado, voltando nos resumos, e pesquisando "será que dá pra fazer isso?", ajudou muito para que conseguisse o resultado final. É provável que a solução para esse desafio seja algo muito mais simples, mas esse foi o jeito "mais fácil" que encontrei para resolver.
+It was a project with a little bit of complexity when it comes to responsiveness at my current level, when things got decentralized as I decreased the size of the screen at times it got a little bit frustrating, however, with all that I have learned and made note of, and serching "can I do that?", helped a lot to achieve the final result. Most likely the solution is much simpler than what I've done, but this was the "easiest" way that I've found.

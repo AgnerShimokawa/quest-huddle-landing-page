@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-color: hsl(257, 40%, 49%);
     font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
